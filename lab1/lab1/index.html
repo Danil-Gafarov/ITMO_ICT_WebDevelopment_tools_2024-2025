@@ -1,0 +1,1104 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../practice/">
+      
+      
+        <link rel="next" href="../../lab2/task1/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Приложение - Web Development Tools 2025</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#no1-fastapi" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Web Development Tools 2025" class="md-header__button md-logo" aria-label="Web Development Tools 2025" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Web Development Tools 2025
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Приложение
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Web Development Tools 2025" class="md-nav__button md-logo" aria-label="Web Development Tools 2025" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Web Development Tools 2025
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Лабораторная работа 1
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Лабораторная работа 1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../practice/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Практика
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Приложение
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Приложение
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Описание проекта
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Архитектура проекта
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Архитектура проекта">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Технологии:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Модели данных
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Модели данных">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. User
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-profile" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Profile
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-skill" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Skill
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-profileskill" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. ProfileSkill
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Project
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-teammember-many-to-many-profile-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. TeamMember (many-to-many между Profile и Project)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#api" class="md-nav__link">
+    <span class="md-ellipsis">
+      Функционал API
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Функционал API">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Эндпоинты:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Примеры запросов
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Примеры запросов">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Создание пользователя
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Создание профиля
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Поиск профиля по навыкам
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Добавление участника в проект
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Получение информации о проекте
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Лабораторная работа 2
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Лабораторная работа 2
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lab2/task1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Первое задание
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lab2/task2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Второе задание
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lab3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Лабораторная работа 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../leetcode/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Задачки
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Описание проекта
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Архитектура проекта
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Архитектура проекта">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Технологии:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Модели данных
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Модели данных">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. User
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-profile" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Profile
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-skill" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Skill
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-profileskill" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. ProfileSkill
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Project
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-teammember-many-to-many-profile-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. TeamMember (many-to-many между Profile и Project)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#api" class="md-nav__link">
+    <span class="md-ellipsis">
+      Функционал API
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Функционал API">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Эндпоинты:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Примеры запросов
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Примеры запросов">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Создание пользователя
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Создание профиля
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Поиск профиля по навыкам
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Добавление участника в проект
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Получение информации о проекте
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="no1-fastapi">Лабораторная работа №1 — FastAPI сервис</h1>
+<h2 id="_1">Описание проекта</h2>
+<p>Разработано серверное приложение на основе FastAPI, предоставляющее функционал для поиска людей в команду.<br />
+Пользователи могут:
+  - Создавать профили с описанием опыта, навыков и интересов
+  - Указывать свои навыки с уровнем владения
+  - Создавать проекты с описанием целей и сроков
+  - Добавлять участников в проекты с указанием их ролей
+  - Искать других пользователей по опыту и навыкам</p>
+<hr />
+<h2 id="_2">Архитектура проекта</h2>
+<h3 id="_3">Технологии:</h3>
+<ul>
+<li><strong>FastAPI</strong> — для реализации REST API</li>
+<li><strong>SQLModel</strong> — ORM, связь с PostgreSQL</li>
+<li><strong>PostgreSQL</strong> — реляционная база данных</li>
+<li><strong>Alembic</strong> — система миграций</li>
+<li><strong>Pydantic</strong> — типизация входящих/исходящих данных</li>
+<li><strong>Swagger UI</strong> — документация и тестирование</li>
+</ul>
+<hr />
+<h2 id="_4">Модели данных</h2>
+<p><img alt="" src="../erd.png" /></p>
+<h3 id="1-user">1. <code>User</code></h3>
+<ul>
+<li><code>id</code>: уникальный идентификатор</li>
+<li><code>email</code>: email пользователя</li>
+<li><code>username</code>: имя пользователя</li>
+<li><code>hashed_password</code>: захэшированный пароль</li>
+</ul>
+<h3 id="2-profile">2. <code>Profile</code></h3>
+<ul>
+<li><code>id</code>: уникальный идентификатор</li>
+<li><code>user_id</code>: ссылка на <code>User</code></li>
+<li><code>bio</code>: краткое описание</li>
+<li><code>experience</code>: опыт работы</li>
+<li><code>interests</code>: интересы</li>
+<li><code>skills</code>: список навыков (many-to-many через <code>ProfileSkill</code>)</li>
+</ul>
+<h3 id="3-skill">3. <code>Skill</code></h3>
+<ul>
+<li><code>id</code>: уникальный идентификатор</li>
+<li><code>name</code>: название навыка (например, "Python", "FastAPI")</li>
+</ul>
+<h3 id="4-profileskill">4. <code>ProfileSkill</code></h3>
+<ul>
+<li><code>profile_id</code>: ссылка на <code>Profile</code></li>
+<li><code>skill_id</code>: ссылка на <code>Skill</code></li>
+<li><code>level</code>: уровень владения (от 1 до 5)</li>
+</ul>
+<h3 id="5-project">5. <code>Project</code></h3>
+<ul>
+<li><code>id</code>: уникальный идентификатор</li>
+<li><code>title</code>: название проекта</li>
+<li><code>description</code>: описание целей и требований</li>
+<li><code>deadline</code>: дата завершения</li>
+<li><code>owner_id</code>: ссылка на <code>User</code></li>
+</ul>
+<h3 id="6-teammember-many-to-many-profile-project">6. <code>TeamMember</code> <em>(many-to-many между <code>Profile</code> и <code>Project</code>)</em></h3>
+<ul>
+<li><code>profile_id</code>: ссылка на <code>Profile</code></li>
+<li><code>project_id</code>: ссылка на <code>Project</code></li>
+<li><code>role</code>: роль пользователя в проекте (например, "Backend Developer")</li>
+<li><code>joined_at</code>: дата присоединения</li>
+</ul>
+<hr />
+<h2 id="api">Функционал API</h2>
+<h3 id="_5">Эндпоинты:</h3>
+<table>
+<thead>
+<tr>
+<th>Метод</th>
+<th>Эндпоинт</th>
+<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>POST</td>
+<td><code>/users/</code></td>
+<td>Создание пользователя</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/profiles/</code></td>
+<td>Создание профиля</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/profiles/</code></td>
+<td>Список профилей (с фильтрацией)</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/profiles/{id}</code></td>
+<td>Информация о профиле</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/projects/</code></td>
+<td>Создание проекта</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/team-members/</code></td>
+<td>Добавление участника в проект</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/projects/{id}</code></td>
+<td>Информация о проекте и его участниках</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="_6">Примеры запросов</h2>
+<h3 id="_7">🔹 Создание пользователя</h3>
+<pre><code class="language-http">POST /users/
+{
+  &quot;email&quot;: &quot;test@example.com&quot;,
+  &quot;username&quot;: &quot;testuser&quot;,
+  &quot;password&quot;: &quot;secret&quot;
+}
+</code></pre>
+<h3 id="_8">🔹 Создание профиля</h3>
+<pre><code class="language-http">POST /profiles/
+{
+  &quot;user_id&quot;: 1,
+  &quot;bio&quot;: &quot;Python разработчик&quot;,
+  &quot;experience&quot;: &quot;3 года&quot;,
+  &quot;interests&quot;: &quot;FastAPI, SQL&quot;,
+  &quot;skills&quot;: [
+    {&quot;skill_id&quot;: 1, &quot;level&quot;: 5},
+    {&quot;skill_id&quot;: 2, &quot;level&quot;: 4}
+  ]
+}
+</code></pre>
+<h3 id="_9">🔹 Поиск профиля по навыкам</h3>
+<pre><code class="language-http">GET /profiles/?skill=python
+</code></pre>
+<p>→ Возвращает всех с навыком Python</p>
+<h3 id="_10">🔹 Добавление участника в проект</h3>
+<pre><code class="language-http">POST /team-members/
+{
+  &quot;profile_id&quot;: 1,
+  &quot;project_id&quot;: 1,
+  &quot;role&quot;: &quot;Backend Developer&quot;
+}
+</code></pre>
+<h3 id="_11">🔹 Получение информации о проекте</h3>
+<pre><code class="language-http">GET /projects/1
+</code></pre>
+<p>→ Возвращает проект со списком участников и их ролями</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>
